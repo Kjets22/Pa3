@@ -16,5 +16,9 @@ public class Photo implements Serializable {
         tags.add(tag);
     }
 
+    public String getImagePath() {
+        return imagePath;
+    }
+
     // Add getters and setters as necessary
 }
